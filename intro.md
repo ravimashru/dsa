@@ -12,13 +12,13 @@ _[Source: Algorithms (1e)]_
 
 ## Commonsense rules for Big-O notation
 
-1. Multiplicative constants can be omitted
+1. Multiplicative constants can be omitted:
    *14n<sup>2</sup> becomes n<sup>2</sup>*
-2. *n<sup>a</sup>* dominates *n<sup>b</sup>* if `a > b`
+2. *n<sup>a</sup>* dominates *n<sup>b</sup>* if `a > b`:
    *n<sup>2</sup>* dominates *n*
-3. Any exponential dominates any polynomial
+3. Any exponential dominates any polynomial:
    *3<sup>n</sup>* dominates *n<sup>5</sup>* and even *2<sup>n</sup>*
-4. Any polynomial nominates any logarithm
+4. Any polynomial nominates any logarithm:
    *n* dominates *(log n)<sup>3</sup>*, *n<sup>2</sup>* dominates *n log n*
 
 _[Source: Algorithms (1e)]_
