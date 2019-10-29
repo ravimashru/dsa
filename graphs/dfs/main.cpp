@@ -1,5 +1,5 @@
 /**
- * DFS implementation to test with example in the book (Figure 22.4).
+ * DFS implementation to test with example in CLRS (Figure 22.4).
  * 
  * Input:
  * number of vertices in graph - V
